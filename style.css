@@ -83,22 +83,19 @@ body {
   gap: 2.5rem;
 }
 
-.recipe-image {
-}
-
 .recipe-sections {
   display: grid;
   gap: 2rem;
   padding: 0 2rem 2.5rem;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 26rem) {
   :root {
     --fs-heading-l: 2.5rem;
   }
 
   body {
-    margin: 2rem 0rem;
+    margin: 2rem 2rem;
     display: grid;
     place-items: center;
   }
