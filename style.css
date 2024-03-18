@@ -172,6 +172,8 @@ body {
 .recipe-sections ol {
   list-style: decimal;
   margin-left: 1.5rem;
+  display: grid;
+  gap: 0.5rem;
 }
 
 .recipe-sections li::marker {
